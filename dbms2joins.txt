@@ -37,10 +37,10 @@ VALUES
 -- Insert sample data into Employees table
 INSERT INTO Employees (EmployeeName, Age, Gender, DepartmentID)
 VALUES 
-('Alice Johnson', 30, 'Female', 1),
-('Bob Smith', 35, 'Male', 2),
-('Carol White', 28, 'Female', 3),
-('David Brown', 40, 'Male', 4);
+('isha', 30, 'Female', 1),
+('hardik', 35, 'Male', 2),
+('deepika', 28, 'Female', 3),
+('abhishek', 40, 'Male', 4);
 
 -- Insert sample data into Salaries table
 INSERT INTO Salaries (EmployeeID, SalaryAmount)
