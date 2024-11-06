@@ -15,8 +15,8 @@ CREATE TABLE Fine (
 
 -- Insert sample data
 INSERT INTO Borrower (Roll_no, Name, Date_of_Issue, Name_of_Book, Status) VALUES
-(101, 'John Doe', '2024-09-01', 'Book A', 'I'),
-(102, 'Jane Smith', '2024-09-20', 'Book B', 'I');
+(101, 'richa patel', '2024-09-01', 'Book A', 'I'),
+(102, 'harsh mungse', '2024-09-20', 'Book B', 'I');
 
 
 DELIMITER //
