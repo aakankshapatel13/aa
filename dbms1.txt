@@ -47,8 +47,8 @@ JOIN
 
 -- Insert sample customers
 INSERT INTO Customer (FirstName, LastName, Email) VALUES
-    ('John', 'Doe', 'johndoe@example.com'),
-    ('Jane', 'Smith', 'janesmith@example.com');
+    ('ajinkya', 'Desai', 'aj@example.com'),
+    ('richa', 'patel', 'rp@example.com');
 
 -- Insert sample accounts
 INSERT INTO Account (AccountID, CustomerID, AccountType, Balance) VALUES
@@ -92,7 +92,7 @@ ALTER TABLE Customer ADD COLUMN PhoneNumber VARCHAR(15);
 
 -- Update a customer’s email address
 UPDATE Customer
-SET Email = 'johnnydoe@example.com'
+SET Email = 'ajinkyadesai@example.com'
 WHERE CustomerID = 1;
 
 -- Drop a column from the Customer table
